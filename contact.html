@@ -1,0 +1,139 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Bootstrap CSS -->
+    <link href="css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+
+    <title>Mango Man | Contact</title>
+    <style>
+      .container{
+          width: 70% !important;
+      }
+  </style>
+</head>
+<body>
+    <!-- navbar -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark" style="background-color: black !important;">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#">Mango Man</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                    <li class="nav-item">
+                        <a class="nav-link " aria-current="page" href="index.html">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link " href="about.html">About</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
+                            data-bs-toggle="dropdown" aria-expanded="false">
+                            Services
+                        </a>
+                        <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                          <li><a class="dropdown-item" href="#">Cash on Delivery</a></li>
+                          <li><a class="dropdown-item" href="#">Online Payment</a></li>
+                          <li>
+                              <hr class="dropdown-divider">
+                          </li>
+                          <li><a class="dropdown-item" href="index.html">Browse Mangoes</a></li>
+                      </ul>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active" href="contact.html">Contact Us</a>
+                    </li>
+                </ul>
+                <form class="d-flex">
+                    <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                    <button class="btn btn-outline-success" type="submit">Search</button>
+                </form>
+            </div>
+        </div>
+    </nav>
+
+    <div class="container my-4">
+      <h2 class="mb-4 text-info">Contact Us</h2>
+      <hr class="featurette-divider">
+        <form class="row g-2">
+            <div class="col-12">
+              <label for="inputEmail4" class="form-label">Name:</label>
+              <input type="text" class="form-control" id="inputEmail4" placeholder="Enter your Name" required >
+            </div>
+            <div class="col-12">
+              <label for="inputphoneno" class="form-label">Mobile No:</label>
+              <input type="number" class="form-control" id="inputphoneno" placeholder="Enter your phone number" required >
+            </div>
+
+            <div class="input-group mb-3">
+              <div class="input-group-prepend">
+                <label class="input-group-text" for="inputGroupSelect01">Select Mango:</label>
+              </div>
+              <select class="custom-select" id="inputGroupSelect01" required >
+                <option selected value="1">Alphanso</option>
+                <option value="2">Totapuri</option>
+                <option value="3">Raspuri</option>
+              </select>
+            </div>
+          
+            <div class="form-group">
+              <label for="exampleFormControlSelect1">Select Quantity:</label>
+              <select class="form-control" id="exampleFormControlSelect1" required >
+                <option>1 Kg</option>
+                <option>2 Kg</option>
+                <option>3 Kg</option>
+                <option>4 Kg</option>
+                <option>5 Kg</option>
+                <option>10 Kg</option>
+              </select>
+            </div>
+            <div class="col-12">
+              <label for="inputAddress" class="form-label">Address:</label>
+              <input type="text" class="form-control" id="inputAddress" placeholder="Enter Address" required >
+            </div>
+          
+            <div class="col-md-6">
+              <label for="inputCity" class="form-label">City:</label>
+              <input type="text" class="form-control" id="inputCity" placeholder="Enter City" required >
+            </div>
+            <div class="col-md-4">
+              <label for="inputState" class="form-label">State:</label>
+              <select id="inputState" class="form-select" required>
+                <option selected>Karnataka</option>
+                <option>AndraPradesh</option>
+              </select>
+            </div>
+            <div class="col-md-2">
+              <label for="inputZip" class="form-label">Zip:</label>
+              <input type="number" class="form-control" id="inputZip" placeholder="Pincode" required>
+            </div>
+        
+            <div class="col-12">
+              <button type="submit" class="btn btn-success">Submit</button>
+            </div>
+          </form>
+    </div>
+    <hr class="featurette-divider">         
+    
+    <footer class="container">
+      <p class="float-end"><a href="#">Back to top</a></p>
+      <p>2022 © Copyrights Mango Man. All Rights Reserved </p>
+    </footer>
+    <!-- Option 1: Bootstrap Bundle with Popper -->
+    <script src="js/bootstrap.bundle.min.js"
+        integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+        crossorigin="anonymous"></script>
+
+
+</body>
+
+</html>
