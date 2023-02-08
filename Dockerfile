@@ -9,4 +9,4 @@ WORKDIR /usr/local/app
 COPY . /usr/share/nginx/html
 
 # Expose port 80
-EXPOSE 80
+EXPOSE 8000
